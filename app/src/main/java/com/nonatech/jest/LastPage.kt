@@ -1,4 +1,4 @@
-package com.example.jest
+package com.nonatech.jest
 
 
 import android.content.Context

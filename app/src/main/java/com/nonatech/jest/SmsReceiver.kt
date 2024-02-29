@@ -1,4 +1,4 @@
-package com.example.jest
+package com.nonatech.jest
 
 
 
@@ -10,7 +10,7 @@ import android.os.Build
 import android.telephony.SmsMessage
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.example.jest.MyApplication.Companion.old
+import com.nonatech.jest.MyApplication.Companion.old
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.time.LocalDate
@@ -27,7 +27,7 @@ class SmsReceiver : BroadcastReceiver() {
 
         val bundle = intent.extras
         if (bundle != null) {
-            val pdus = bundle["pdus"] as Array<Any>?
+            val pdus = bundle["pdus"] as Array<*>?
             if (pdus != null) {
                 for (pdu in pdus) {
                     val smsMessage = SmsMessage.createFromPdu(pdus[0] as ByteArray)

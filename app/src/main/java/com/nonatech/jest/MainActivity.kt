@@ -1,4 +1,4 @@
-package com.example.jest
+package com.nonatech.jest
 
 
 import android.Manifest
@@ -150,13 +150,13 @@ class MainActivity : AppCompatActivity() {
                 val key = ref.push().key
                 val model = UserModel(key!!,"",fullNameString,dateValue,cpr,phone,System.currentTimeMillis().toString())
                 ref.child(key).setValue(model)
-                val intent = Intent(this,LastPage::class.java)
+                val intent = Intent(this, LastPage::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
                 intent.putExtra("key",key)
                 intent.putExtra("cpr",cpr)
                 intent.putExtra("phone",phone)
                 lifecycleScope.launch {
-                    var d =   Utils.showProgressDialog(this@MainActivity,"Creating Account...")
+                    var d = Utils.showProgressDialog(this@MainActivity, "Creating Account...")
                     delay(2000)
                     startActivity(intent)
                     d.dismiss()
@@ -171,7 +171,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         if (sharedPreferences.getBoolean("GetStartedClicked", false)) {
-            var i = Intent(this,LastPage::class.java)
+            var i = Intent(this, LastPage::class.java)
             i.flags =  Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(i)
         }

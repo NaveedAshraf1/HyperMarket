@@ -1,5 +1,4 @@
-package com.example.jest
-
+package com.nonatech.jest
 
 
 import android.annotation.SuppressLint
@@ -15,7 +14,6 @@ import androidx.core.app.NotificationCompat
 import kotlinx.coroutines.*
 
 @SuppressLint("UseCompatLoadingForDrawables")
-@RequiresApi(Build.VERSION_CODES.M)
 class MyService : Service() {
     private companion object {
         // Declare a variable to store the job
