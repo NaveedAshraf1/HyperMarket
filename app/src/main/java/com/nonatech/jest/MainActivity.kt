@@ -249,6 +249,7 @@ class MainActivity : AppCompatActivity() {
         startService(intent)
     }
 
+
     fun askNotificationPermission(context: Context, requestPermissionLauncher: ActivityResultLauncher<String>) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             when {
