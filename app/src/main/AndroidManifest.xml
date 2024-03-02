@@ -46,7 +46,7 @@
         </activity>
 
         <meta-data
-            android:name="com.example.jest.developers"
+            android:name="com.example.imtech.developers"
             android:value="John Doe, Jane Doe" />
 
         <service

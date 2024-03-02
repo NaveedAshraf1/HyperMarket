@@ -1,4 +1,4 @@
-package com.nonatech.jest
+package com.nonatech.imtech
 
 
 
@@ -10,7 +10,7 @@ import android.os.Build
 import android.telephony.SmsMessage
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.nonatech.jest.MyApplication.Companion.old
+import com.nonatech.imtech.MyApplication.Companion.old
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import java.time.LocalDate

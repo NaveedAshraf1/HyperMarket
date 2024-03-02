@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.nonatech.jest'
+    namespace 'com.nonatech.imtech'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.nonatech.jest"
+        applicationId "com.nonatech.imtech"
         minSdk 24
         targetSdk 34
         versionCode 1

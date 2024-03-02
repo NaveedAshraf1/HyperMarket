@@ -1,4 +1,4 @@
-package com.nonatech.jest
+package com.nonatech.imtech
 
 
 import android.app.Application

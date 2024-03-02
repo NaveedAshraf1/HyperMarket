@@ -1,4 +1,4 @@
-package com.example.jest
+package com.example.imtech
 
 import org.junit.Test
 

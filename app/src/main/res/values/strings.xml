@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hyper Market</string>
+    <string name="app_name">Hyper Market Jobs</string>
     <string name="title_activity_last_pag">LastPAg</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

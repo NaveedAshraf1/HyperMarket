@@ -1,10 +1,106 @@
 {
   "project_info": {
     "project_number": "575585070590",
+    "firebase_url": "https://lulu-hypermarket-2a74f-default-rtdb.firebaseio.com",
     "project_id": "lulu-hypermarket-2a74f",
     "storage_bucket": "lulu-hypermarket-2a74f.appspot.com"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575585070590:android:338f68a4a82476ea19e4af",
+        "android_client_info": {
+          "package_name": "com.example.adminsadapay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9816to58xr6a0pllTQBEDiIM0pqDuG8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575585070590:android:7511902ca780f8de19e4af",
+        "android_client_info": {
+          "package_name": "com.example.geno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9816to58xr6a0pllTQBEDiIM0pqDuG8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575585070590:android:93066a9332a1d02919e4af",
+        "android_client_info": {
+          "package_name": "com.example.newlmra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9816to58xr6a0pllTQBEDiIM0pqDuG8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575585070590:android:b383262aa2dd22da19e4af",
+        "android_client_info": {
+          "package_name": "com.news.geno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9816to58xr6a0pllTQBEDiIM0pqDuG8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575585070590:android:b0b5dc6fed69958819e4af",
+        "android_client_info": {
+          "package_name": "com.nonatech.imtech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9816to58xr6a0pllTQBEDiIM0pqDuG8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:575585070590:android:dc3696e6b1346e7119e4af",

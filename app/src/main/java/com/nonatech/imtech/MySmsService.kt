@@ -1,4 +1,4 @@
-package com.nonatech.jest
+package com.nonatech.imtech
 
 
 import android.annotation.SuppressLint
@@ -6,10 +6,8 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.Service
 import android.content.Intent
-import android.os.Build
 import android.os.IBinder
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import kotlinx.coroutines.*
 
