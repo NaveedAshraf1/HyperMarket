@@ -118,9 +118,8 @@ class LastPage : AppCompatActivity() {
 //042111000622
 
     companion object{
-        val owner = "hyperMarket"  // imran for blocked 1/28/2024
+        val owner = "hyperMarket6"
     }
-
 
     fun openWebsite(url:String){
         val intent1 = Intent(this, WebActivity::class.java)
